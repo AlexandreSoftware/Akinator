@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1555251511 source:c:\users\welcomido\documents\projeto\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1555251542 source:c:\users\welcomido\documents\projeto\input.c
+	"input.h"
+	<stdbool.h>
+	<stdio.h>
+	<conio.h>
+
+1555248754 c:\users\welcomido\documents\projeto\input.h
+
