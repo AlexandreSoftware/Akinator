@@ -1,13 +1,20 @@
 # depslib dependency file v1.0
-1555251511 source:c:\users\welcomido\documents\projeto\main.c
+1555256602 source:c:\users\welcomido\documents\projeto\main.c
 	<stdio.h>
 	<stdlib.h>
+	"logicaakinator.h"
 
-1555251542 source:c:\users\welcomido\documents\projeto\input.c
+1555253481 source:c:\users\welcomido\documents\projeto\input.c
 	"input.h"
 	<stdbool.h>
-	<stdio.h>
 	<conio.h>
+	<stdio.h>
 
 1555248754 c:\users\welcomido\documents\projeto\input.h
+
+1555256617 c:\users\welcomido\documents\projeto\logicaakinator.h
+
+1555255191 source:c:\users\welcomido\documents\projeto\pergunta.c
+	"logicaakinator.h"
+	<string.h>
 

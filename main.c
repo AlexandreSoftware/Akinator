@@ -1,21 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
-int main()
-{
+#include "logicaakinator.h"
 
-        char input;
-        scanf("%s", &input);
-        printf("AWOWOWOWOOWOWOWO");
-        if(input=='n'||'s'){
-            printf("OWOWOWOWOWOWOWOWOWO");
-            return input;
-        }
-        else{
-            printf("UWUWUWUWUUWU");
-            printf("Input invalido: tente novamente");
+int main(){
+    char name[10][15]={
 
+     "Jason Momoa",
 
-        }
+     "Peter Dinklage",
+
+     "Arnold Schwarzenegger"
+
+     };
+    perguntar();
     return 0;
 }
