@@ -18,3 +18,32 @@
 	"logicaakinator.h"
 	<string.h>
 
+1555774079 source:c:\users\carlos oliveira\desktop\programação\akinator\input.c
+	"input.h"
+	<stdbool.h>
+	<conio.h>
+	<stdio.h>
+
+1555774079 c:\users\carlos oliveira\desktop\programação\akinator\input.h
+
+1555818915 source:c:\users\carlos oliveira\desktop\programação\akinator\main.c
+	<stdio.h>
+	<stdlib.h>
+	"logicaakinator.h"
+
+1555819136 c:\users\carlos oliveira\desktop\programação\akinator\logicaakinator.h
+
+1555819125 source:c:\users\carlos oliveira\desktop\programação\akinator\carinha.c
+	"input.h"
+	<stdlib.h>
+
+1555819202 source:c:\users\carlos oliveira\desktop\programação\akinator\pergunta.c
+	"logicaakinator.h"
+	<stdio.h>
+	"input.h"
+	<stdbool.h>
+	"carinha.h"
+	<string.h>
+
+1555819126 c:\users\carlos oliveira\desktop\programação\akinator\carinha.h
+

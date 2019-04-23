@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="carinha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="carinha.h" />
 		<Unit filename="input.c">
 			<Option compilerVar="CC" />
 		</Unit>
