@@ -47,3 +47,33 @@
 
 1555819126 c:\users\carlos oliveira\desktop\programação\akinator\carinha.h
 
+1556288625 source:c:\users\lab801\desktop\akinator\carinha.c
+	"input.h"
+	<stdlib.h>
+
+1556288625 c:\users\lab801\desktop\akinator\input.h
+
+1556290115 source:c:\users\lab801\desktop\akinator\main.c
+	<stdio.h>
+	<stdlib.h>
+	"logicaakinator.h"
+
+1556291024 c:\users\lab801\desktop\akinator\logicaakinator.h
+
+1556290559 source:c:\users\lab801\desktop\akinator\pergunta.c
+	"logicaakinator.h"
+	<stdio.h>
+	"input.h"
+	<stdbool.h>
+	"carinha.h"
+	<string.h>
+
+1556290471 c:\users\lab801\desktop\akinator\carinha.h
+
+1556290553 source:c:\users\lab801\desktop\akinator\input.c
+	"input.h"
+	<stdbool.h>
+	<conio.h>
+	<stdio.h>
+	"carinha.h"
+
