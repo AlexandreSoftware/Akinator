@@ -77,3 +77,28 @@
 	<stdio.h>
 	"carinha.h"
 
+1556557324 source:c:\users\lab803\desktop\akinator\carinha.c
+	"input.h"
+	<stdlib.h>
+
+1556557324 c:\users\lab803\desktop\akinator\input.h
+
+1556557324 source:c:\users\lab803\desktop\akinator\input.c
+	"input.h"
+	<stdbool.h>
+	<conio.h>
+	<stdio.h>
+	"carinha.h"
+
+1556557324 c:\users\lab803\desktop\akinator\carinha.h
+
+1556557324 source:c:\users\lab803\desktop\akinator\pergunta.c
+	"logicaakinator.h"
+	<stdio.h>
+	"input.h"
+	<stdbool.h>
+	"carinha.h"
+	<string.h>
+
+1556557324 c:\users\lab803\desktop\akinator\logicaakinator.h
+
