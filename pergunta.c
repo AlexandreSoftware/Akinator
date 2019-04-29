@@ -10,6 +10,7 @@ int menuquestion(){
 
 int question(char *Question,int loop){
  system("cls");
+
  printf(" %s \n %s %s \n %s ", topcarinha,midcarinha, Question ,botcarinha);
  char input =validateinput();
 

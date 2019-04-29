@@ -83,7 +83,7 @@
 
 1556557324 c:\users\lab803\desktop\akinator\input.h
 
-1556564620 source:c:\users\lab803\desktop\akinator\input.c
+1556567715 source:c:\users\lab803\desktop\akinator\input.c
 	"input.h"
 	<stdbool.h>
 	<conio.h>
@@ -92,17 +92,18 @@
 
 1556557324 c:\users\lab803\desktop\akinator\carinha.h
 
-1556565901 source:c:\users\lab803\desktop\akinator\pergunta.c
+1556567715 source:c:\users\lab803\desktop\akinator\pergunta.c
 	"logicaakinator.h"
 	<stdio.h>
 	"input.h"
 	"carinha.h"
 	<string.h>
 
-1556565901 c:\users\lab803\desktop\akinator\logicaakinator.h
+1556568069 c:\users\lab803\desktop\akinator\logicaakinator.h
 
-1556566075 source:c:\users\lab803\desktop\akinator\main.c
+1556569551 source:c:\users\lab803\desktop\akinator\main.c
 	<stdio.h>
 	<stdlib.h>
 	"logicaakinator.h"
+	<stdbool.h>
 
