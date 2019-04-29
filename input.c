@@ -4,18 +4,11 @@
 #include <stdio.h>
 #include "carinha.h"
 char validateinput(){
-    bool x=false;
+    bool x;
+    char input;
     while(!x){
-    char input = _getch();
-
-    printf("%c \n", input);
-    if(input=='s'||input=='n'){
-         return input;
+        input = _getch();
+        input=='s'||input=='n'? system("cls"),x=true:printf("\rInput invalido: tente novamente");
     }
-    else{
-        system("cls");
-        printf(" %s \n %s \n %s ", topcarinha,midcarinha,botcarinha);
-        printf("input invalido: tente novamente");
-    }}
-    return '@';
+    return input;
 }
