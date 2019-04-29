@@ -1,6 +1,6 @@
 #ifndef logicaakinator
 #define logicaakinator.h
 int menuquestion();
-char question(char *questionnumber);
+int question(char *questionnumber,int loop);
 
 #endif
