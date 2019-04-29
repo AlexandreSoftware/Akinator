@@ -1,7 +1,8 @@
 #ifndef logicaakinator
 #define logicaakinator.h
+#include <stdbool.h>
 
-int menuquestion();
+bool menuquestion();
 int question(char *questionnumber,int loop);
 
 #endif

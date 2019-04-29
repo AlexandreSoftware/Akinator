@@ -5,7 +5,9 @@
 int main(){
    bool gameisfinished=false;
    while(!gameisfinished){
-
+    bool menuisfinished=false;
+    system("cls");
+    while(!menuisfinished){menuisfinished =menuquestion();}
     char *questions[16] ={
       "",
       "Pergunta 1",
@@ -24,9 +26,7 @@ int main(){
       "Resposta 14:if yes 7",
       "Resposta 15:if not 7"};
      int i =1;
-     while(i<16){
-          i=question(questions[i],i);
-     }
+     while(i<16){i=question(questions[i],i);}
      printf("Deseja jogar novamente ?");
      char playagain=validateinput();
      playagain=='n'? system("cls"),printf("Obrigado por jogar"),gameisfinished=true : system("cls");

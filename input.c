@@ -10,6 +10,5 @@ char validateinput(){
         input = _getch();
         input=='s'||input=='n'? system("cls"),x=true:printf("\rInput invalido: tente novamente");
     }
-
     return input;
 }
