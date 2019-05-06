@@ -108,3 +108,35 @@
 	"logicaakinator.h"
 	<stdbool.h>
 
+1557153232 source:c:\users\lab802\desktop\akinator\carinha.c
+	"input.h"
+	<stdlib.h>
+
+1557153233 c:\users\lab802\desktop\akinator\input.h
+
+1557153233 source:c:\users\lab802\desktop\akinator\input.c
+	"input.h"
+	<stdbool.h>
+	<conio.h>
+	<stdio.h>
+	"carinha.h"
+
+1557153232 c:\users\lab802\desktop\akinator\carinha.h
+
+1557153233 source:c:\users\lab802\desktop\akinator\pergunta.c
+	"logicaakinator.h"
+	<stdio.h>
+	"input.h"
+	<stdbool.h>
+	"carinha.h"
+	<string.h>
+
+1557153233 c:\users\lab802\desktop\akinator\logicaakinator.h
+	<stdbool.h>
+
+1557159208 source:c:\users\lab802\desktop\akinator\main.c
+	<stdio.h>
+	<stdlib.h>
+	"logicaakinator.h"
+	<stdbool.h>
+

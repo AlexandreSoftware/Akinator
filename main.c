@@ -2,13 +2,21 @@
 #include <stdlib.h>
 #include "logicaakinator.h"
 #include <stdbool.h>
-int main(){
+
+int main(int argc, char *argv[0]){
+    int pathlength=strlen(argv[0]);
+    char path[pathlength-20];
+    for(int i =0;i<=pathlength-22;i++){path[i]=argv[0][i];}
+   /*
+   //Loop DE jogo
    bool gameisfinished=false;
    while(!gameisfinished){
+    //Loop Menu
     bool menuisfinished=false;
     system("cls");
     while(!menuisfinished){menuisfinished =menuquestion();}
-    char *questions[16] ={
+    //FIM DO MENU----------------------------
+    char *questions[] ={
       "",
       "Pergunta 1",
       "Pergunta 2: if not 1",
@@ -23,14 +31,15 @@ int main(){
       "Resposta 11:if yes 5",
       "Resposta 12:if not 6",
       "Resposta 13:if yes 6",
-      "Resposta 14:if yes 7",
-      "Resposta 15:if not 7"};
-     int i =1;
-     while(i<16){i=question(questions[i],i);}
+      "Resposta 14:if not 7",
+      "Resposta 15:if yes 7"};
+     int i =1,length=sizeof(questions)/sizeof(int);
+     while(i<=length-1){i=question(questions[i],i);}
+     //FIM DE JOGO--------------------------------------------------
      printf("Deseja jogar novamente ?");
      char playagain=validateinput();
      playagain=='n'? system("cls"),printf("Obrigado por jogar"),gameisfinished=true : system("cls");
-   }
+   }*/
     return 0;
 }
 
